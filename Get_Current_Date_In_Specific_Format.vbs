@@ -1,0 +1,1 @@
+wscript.stdout.Writeline CreateObject("system.text.stringbuilder").AppendFormat("{0:yyyy}-{0:MM}-{0:dd}", now).ToString()
